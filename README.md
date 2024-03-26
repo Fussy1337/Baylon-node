@@ -24,4 +24,5 @@ Recommended 4CPU 32RAM 1000GB
  $ sudo systemctl stop babylond && sudo systemctl disable babylond && sudo rm /etc/systemd/system/babylond.service && sudo systemctl daemon-reload && rm -rf $HOME/.babylond && rm -rf babylon && sudo rm -rf $(which babylond) 
 
 Обновление пакетов сервера и подготовка к развертыванию ноды
-~~~sudo apt update && sudo apt upgrade -y
+~~~
+sudo apt update && sudo apt upgrade -y
