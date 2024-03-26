@@ -21,4 +21,5 @@ Recommended 4CPU 32RAM 1000GB
 
 удалить старую версию
 
+📼
 $ sudo systemctl stop babylond && sudo systemctl disable babylond && sudo rm /etc/systemd/system/babylond.service && sudo systemctl daemon-reload && rm -rf $HOME/.babylond && rm -rf babylon && sudo rm -rf $(which babylond) 
